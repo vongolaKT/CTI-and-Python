@@ -1,15 +1,16 @@
 # function that calculates tip and tax and displays them along with the total
 # 11/25/2020
-# CTI-110 P2HW1 - Meal Tip Tax Calculator
+# CTI-110 P3HW2 - Meal Tip Tax Calculator Revised
 # Kevin Griffin
 
 def tipTax():
-    # Get the total for the food and the tip and tax
+    # Get the total for the food
 
     foodCost = float(input('Enter Food Cost: '))
     print(' ')
-
+        # function for getting tip input, calls until one of the three prompted are typed in
     def tipPerc():
+        # need to reset this value in each call
         tipPercent = float(input('Enter tip percentage 15, 18 or 20: '))
 
         if tipPercent == 15:

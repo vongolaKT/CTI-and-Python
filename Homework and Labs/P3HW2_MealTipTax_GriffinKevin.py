@@ -20,13 +20,12 @@ def tipTax():
             return tipPercent
         else:
             print('Please re-enter a correct value')
-            # recursion - wooo! will call until one of the three values are entered
-            tipPerc()
+            # calls until one of the above inputs is given, some form of recursion?
+            tipPercent = tipPerc()
+            return tipPercent
     
-    tipPerc()
-    # call the function
+    # call the function and assign the returned value to tipPercent
     tipPercent = tipPerc()
-    # assign returned value to tipPercent
     print(' ')
     taxPercent = 6
     print(' ')

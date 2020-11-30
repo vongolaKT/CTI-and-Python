@@ -1,5 +1,7 @@
-# I was supposed to put a comment here
-# Griffin
+# function that prints a letter grade based on a grade input
+# 11/30/2020
+# CTI-110 P3HW1 - Debugging
+# Kevin Griffin
 
 def main():
     # This program takes a number grade and outputs a letter grade.
@@ -9,8 +11,9 @@ def main():
     B_score = 80
     C_score = 70
     D_score = 60
-    # TO DO: define the rest of the scores
 
+    # doesn't check if a number is above 100, which while impossible for school can be input in error
+    # Will still return an A though
     
     score = int(input('Enter grade: '))
 
@@ -24,7 +27,7 @@ def main():
     elif score >= D_score and score < C_score:
         print('Your grade is: D')
     else:
-        print('Your grade is: F') # TO DO: finish this
+        print('Your grade is: F')
 
 
 

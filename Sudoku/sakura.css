@@ -184,6 +184,8 @@ html {
     font-weight: 600; }
   .container {
         width:600px;
+        float: left;
+        position: relative;
    }
    
   .imageclass {
@@ -207,4 +209,17 @@ html {
    .nav {
        padding-top: 5px;
        padding-bottom: 5px;
+       border-color: #1d7484;
+       border: 1px;
+   }
+   .contactform {
+       position: fixed;
+       left: 33%;
+       bottom: 10%;
+       width: 500px;
+       text-align: center;
+   }
+   #homegraphic {
+       width: 80%;
+       height: 80%;
    }

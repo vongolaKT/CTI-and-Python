@@ -204,3 +204,7 @@ html {
        width: 100%;
        text-align: center;
    }
+   .nav {
+       padding-top: 5px;
+       padding-bottom: 5px;
+   }

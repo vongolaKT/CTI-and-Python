@@ -182,3 +182,25 @@ html {
     display: block;
     margin-bottom: .5rem;
     font-weight: 600; }
+  .container {
+        width:600px;
+   }
+   
+  .imageclass {
+        float:left;
+        width:150px;
+        height:20px;
+   }
+   
+  .textclass {
+        float:left;
+        width:450px;
+        height:20px;
+   }
+   .footer {
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       text-align: center;
+   }

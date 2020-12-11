@@ -214,10 +214,10 @@ html {
    }
    .contactform {
        position: fixed;
-       left: 33%;
+       left: 26%;
        bottom: 10%;
        width: 500px;
-       text-align: center;
+       text-align: left;
    }
    #homegraphic {
        width: 80%;
